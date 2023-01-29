@@ -1,0 +1,130 @@
+.table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+@media screen and (max-width: 600px) {
+    .table {
+        width: 100%;
+        display: block;
+        overflow-x: auto;
+    }
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+table {
+    width: 100%;
+    margin-top: 30px;
+}
+
+th {
+    font-weight: bold;
+    background: #484848;
+    color: white;
+}
+
+td {
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #f2f2f2;
+}
+
+.match-score {
+    font-weight: bold;
+}
+
+.responsive {
+    width: 100%;
+    overflow-x: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .responsive {
+        display: block;
+    }
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.home-team,
+.away-team {
+    display: flex;
+    align-items: center;
+}
+
+.home-team img,
+.away-team img {
+    margin-right: 10px;
+}
+
+.home-team span,
+.away-team span {
+    font-weight: bold;
+}
+
+/* Additional styles */
+body {
+    background-color: #f2f2f2;
+}
+
+.table {
+    border: 1px solid #ddd;
+    box-shadow: 0px 0px 10px #ddd;
+}
+
+th {
+    font-size: 1.2em;
+}
+
+td {
+    font-size: 1.1em;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+.container {
+    padding: 20px;
+}
